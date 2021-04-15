@@ -36,7 +36,7 @@ class Solution {
         HashMap<Integer,ArrayList<Integer> > map = buildHashMap(nums);
 
         // Step 2 -> Sort
-        Arrays.sort(nums); // Internally uses merge sory => O(nlogn)
+        Arrays.sort(nums); // Internally uses merge sort => O(nlogn)
         // Step 3 -> Two Pointer
         int i=0, j=l-1;
         while(!stop) {
@@ -55,6 +55,7 @@ class Solution {
 
     public HashMap<Integer,ArrayList<Integer> > buildHashMap(int[] nums) {
         HashMap<Integer,ArrayList<Integer> > map = new HashMap<Integer,ArrayList<Integer> >();
+        //Store array of indices, pop them when getting
         for(int i=0; i<nums.length; i++) {
             ArrayList<Integer> li = new ArrayList<Integer>();
             if(map.containsKey(nums[i])) {
