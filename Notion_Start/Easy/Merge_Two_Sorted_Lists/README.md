@@ -23,7 +23,7 @@ The list should be made by splicing together the nodes of the first two lists.
     3. Compare p1 with p2, add the value which is smaller to list 3 and increment corresponding pointer. Return list 3 at the end.
     > `O(m+n) time and space`
 
-- **in place approacj**
+- **in place approach**
     1. Handle base conditions and always ensure to avoid null pointer exceptions (NPE) when it comes to linked lists.
     2. **Basic idea is to slide/push every value of one list inside the other list until we reach the end**
     3. Consider h1 as head pointer for list 1 and h2 for list 2. Start with the pointer which has a smaller value.
