@@ -18,12 +18,5 @@ You can return the answer in any order.
 `Output: [0,1]`
 
 ## Solution:
-1. Brute Force:
-    1. Two indices, loop through entire array
-    2. O(n^2) time
-    3. O(1) space
-2. Two pointer approach:
-    1. Prerequisite -> Sort (this is needed to know which pointer to move) + HashMap to store indices
-    2. Left End p1, Right End p2, Check and Move
-    3. O(nlogn) for sort + O(n) to loop pointers => O(nlogn) time 
-    4. O(n) for Hashmap - Space
+
+https://www.notion.so/Two-Sum-LC-1-d4142f8d28c24971971a01e6e8260641#7ed5b4dea72a4da8b302f9605612f535

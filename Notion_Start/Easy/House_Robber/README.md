@@ -16,3 +16,5 @@ Given an integer array `nums` representing the amount of money of each house, re
 `Total amount you can rob = 2 + 9 + 1 = 12.`
 
 ## Solution:
+
+https://www.notion.so/House-Robber-LC-198-954e8022036f47a9806602a15348d14e#d7546b07b5aa4c2b82bdc24ed44ddd4b

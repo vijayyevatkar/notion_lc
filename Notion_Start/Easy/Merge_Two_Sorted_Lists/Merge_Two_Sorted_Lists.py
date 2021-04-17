@@ -43,5 +43,3 @@ class Solution:
         
         # in any other case where both are null or only l1 is pending, we can just return answer
         return answer
-
-
