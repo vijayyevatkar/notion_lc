@@ -17,3 +17,5 @@ Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]
 `Output: [0]`
 
 ## Solution:
+
+https://www.notion.so/3-Sum-LC-15-07041d55800c457c98d7bda9011de6e7
