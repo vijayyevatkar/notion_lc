@@ -1,4 +1,4 @@
-## The Notion LC Project
+## The Leetcode Project
 
 Trying to create a Learning Path for anyone interested in solving the LC problems.
 Though a work in progress, the project is live on the below link!
